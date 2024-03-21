@@ -1,0 +1,343 @@
+repo_name: caseyspaulding/VerticalSliceArchitecture
+report_id: c40f0e3ec6e1946f4b2a60915b93c99e
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-21T13:25:24+00:00'
+requested_by: nadirbad
+provider: github
+branch: main
+detected_tools_count: 25
+tools:
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/caseyspaulding/VerticalSliceArchitecture
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/caseyspaulding/VerticalSliceArchitecture/blob/main/tests/Application.IntegrationTests/Application.IntegrationTests.csproj
+  detection_source: tests/Application.IntegrationTests/Application.IntegrationTests.csproj
+  last_updated_by: Nadir Badnjevic
+  last_updated_on: 2022-03-15 08:24:02.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '7.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/caseyspaulding/VerticalSliceArchitecture/blob/main/src/Api/Api.csproj
+  detection_source: src/Api/Api.csproj
+  last_updated_by: Nadir Badnjevic
+  last_updated_on: 2023-04-01 20:19:11.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: '7.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/caseyspaulding/VerticalSliceArchitecture/blob/main/src/Api/Api.csproj
+  detection_source: src/Api/Api.csproj
+  last_updated_by: Nadir Badnjevic
+  last_updated_on: 2023-04-01 20:19:11.000000000 Z
+- name: Entity Framework
+  description: An object-relational mapper that enables .NET developers to work with
+    relational data
+  website_url: https://docs.microsoft.com/en-us/aspnet/entity-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/3251/no-img-open-source.png
+  detection_source_url: https://github.com/caseyspaulding/VerticalSliceArchitecture/blob/main/src/Application/Application.csproj
+  detection_source: src/Application/Application.csproj
+  last_updated_by: Nadir Badnjevic
+  last_updated_on: 2023-04-01 20:19:11.000000000 Z
+- name: Entity Framework Core
+  description: Lightweight and cross-platform version of the popular Entity Framework
+  website_url: https://docs.microsoft.com/en-us/ef/core/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/10254/no-img-open-source.png
+  detection_source_url: https://github.com/caseyspaulding/VerticalSliceArchitecture/blob/main/src/Application/Application.csproj
+  detection_source: src/Application/Application.csproj
+  last_updated_by: Nadir Badnjevic
+  last_updated_on: 2023-04-01 20:19:11.000000000 Z
+- name: Microsoft SQL Server
+  description: A relational database management system developed by Microsoft
+  website_url: http://microsoft.com/sqlserver
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1027/sql_server.png
+  detection_source_url: https://github.com/caseyspaulding/VerticalSliceArchitecture/blob/main/src/Application/Application.csproj
+  detection_source: src/Application/Application.csproj
+  last_updated_by: Nadir Badnjevic
+  last_updated_on: 2023-04-01 20:19:11.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/caseyspaulding/VerticalSliceArchitecture
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/caseyspaulding/VerticalSliceArchitecture/blob/main/.github/workflows/actions.yml
+  detection_source: ".github/workflows/actions.yml"
+  last_updated_by: Nadir Badnjevic
+  last_updated_on: 2023-04-01 20:23:04.000000000 Z
+- name: Moq
+  description: The most popular and friendly mocking framework for .NET
+  website_url: https://github.com/Moq/moq4
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1628/1434934.png
+  detection_source_url: https://github.com/caseyspaulding/VerticalSliceArchitecture/blob/main/tests/Application.IntegrationTests/Application.IntegrationTests.csproj
+  detection_source: tests/Application.IntegrationTests/Application.IntegrationTests.csproj
+  last_updated_by: Nadir Badnjevic
+  last_updated_on: 2022-03-15 08:24:02.000000000 Z
+- name: NUnit
+  description: An open-source unit testing framework
+  website_url: http://www.nunit.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2371/jZ6MYx5Y_400x400.png
+  detection_source_url: https://github.com/caseyspaulding/VerticalSliceArchitecture/blob/main/tests/Application.IntegrationTests/Application.IntegrationTests.csproj
+  detection_source: tests/Application.IntegrationTests/Application.IntegrationTests.csproj
+  last_updated_by: Nadir Badnjevic
+  last_updated_on: 2022-03-15 08:24:02.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/caseyspaulding/VerticalSliceArchitecture/blob/main/tests/Application.IntegrationTests/Application.IntegrationTests.csproj
+  detection_source: tests/Application.IntegrationTests/Application.IntegrationTests.csproj
+  last_updated_by: Nadir Badnjevic
+  last_updated_on: 2022-03-15 08:24:02.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/caseyspaulding/VerticalSliceArchitecture/blob/main/VerticalSliceArchitecture.sln
+  detection_source: VerticalSliceArchitecture.sln
+  last_updated_by: Nadir Badnjevic
+  last_updated_on: 2022-03-15 08:24:02.000000000 Z
+- name: Visual Studio Code
+  description: Build and debug modern web and cloud applications, by Microsoft
+  website_url: https://code.visualstudio.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png
+  detection_source_url: https://github.com/caseyspaulding/VerticalSliceArchitecture/blob/main/.vscode/tasks.json
+  detection_source: ".vscode/tasks.json"
+  last_updated_by: Nadir Badnjevic
+  last_updated_on: 2022-10-18 07:02:32.000000000 Z
+- name: FluentValidation
+  description: A popular .NET validation library
+  website_url: https://fluentvalidation.net/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/service/9673/default_debf406cb448b8b966a6f0bda56f1617cad2a5dc.png
+  detection_source_url: https://github.com/caseyspaulding/VerticalSliceArchitecture/blob/main/src/Application/Application.csproj
+  detection_source: src/Application/Application.csproj
+  last_updated_by: Nadir Badnjevic
+  last_updated_on: 2023-03-23 20:18:08.000000000 Z
+- name: AutoMapper.Extensions.Microsoft.DependencyInjection
+  description: AutoMapper extensions for ASP.NET Core
+  package_url: https://www.nuget.org/AutoMapper.Extensions.Microsoft.DependencyInjection
+  version: 12.0.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13248/default_3b9faa77d26eef0a944d4dab8d562db23059cb72.png
+  detection_source_url: https://github.com/caseyspaulding/VerticalSliceArchitecture/blob/main/src/Application/Application.csproj
+  detection_source: src/Application/Application.csproj
+  last_updated_by: Nadir Badnjevic
+  last_updated_on: 2023-04-01 20:19:11.000000000 Z
+- name: CsvHelper
+  description: A library for reading and writing CSV files
+  package_url: https://www.nuget.org/CsvHelper
+  version: 15.0.10
+  license: MS-PL,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13020/default_1075538f3811f68c42abfdf5ebcf152058e4076d.png
+  detection_source_url: https://github.com/caseyspaulding/VerticalSliceArchitecture/blob/main/src/Application/Application.csproj
+  detection_source: src/Application/Application.csproj
+  last_updated_by: Nadir Badnjevic
+  last_updated_on: 2023-03-23 20:18:08.000000000 Z
+- name: FluentAssertions
+  description: A very extensive set of extension methods that allow you to more naturally
+    specify the expected outcome of a TDD or BDD-style unit tests
+  package_url: https://www.nuget.org/FluentAssertions
+  version: 6.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13059/default_ed36ff3c005af695725e05bb15ea5b1f03de31f3.png
+  detection_source_url: https://github.com/caseyspaulding/VerticalSliceArchitecture/blob/main/tests/Application.IntegrationTests/Application.IntegrationTests.csproj
+  detection_source: tests/Application.IntegrationTests/Application.IntegrationTests.csproj
+  last_updated_by: Nadir Badnjevic
+  last_updated_on: 2022-03-15 08:24:02.000000000 Z
+- name: FluentValidation.AspNetCore
+  description: AspNetCore integration for FluentValidation
+  package_url: https://www.nuget.org/FluentValidation.AspNetCore
+  version: 11.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13324/default_4d1c8e39751da3e5e8bf7305f3f45ac90df4be6f.png
+  detection_source_url: https://github.com/caseyspaulding/VerticalSliceArchitecture/blob/main/src/Api/Api.csproj
+  detection_source: src/Api/Api.csproj
+  last_updated_by: Nadir Badnjevic
+  last_updated_on: 2023-04-01 20:19:11.000000000 Z
+- name: MediatR.Extensions.Microsoft.DependencyInjection
+  description: MediatR extensions for ASP.NET Core
+  package_url: https://www.nuget.org/MediatR.Extensions.Microsoft.DependencyInjection
+  version: 11.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13395/default_de77a8370e47861dfbe30f06e25c22916ed609b5.png
+  detection_source_url: https://github.com/caseyspaulding/VerticalSliceArchitecture/blob/main/src/Application/Application.csproj
+  detection_source: src/Application/Application.csproj
+  last_updated_by: Nadir Badnjevic
+  last_updated_on: 2023-04-01 20:19:11.000000000 Z
+- name: Microsoft.EntityFrameworkCore
+  description: Entity Framework Core is a lightweight and extensible version of the
+    popular Entity Framework data access technology
+  package_url: https://www.nuget.org/Microsoft.EntityFrameworkCore
+  version: 7.0.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12852/default_ccf90b566c21ad9eaa59733f297e535ea39fb3b4.png
+  detection_source_url: https://github.com/caseyspaulding/VerticalSliceArchitecture/blob/main/src/Application/Application.csproj
+  detection_source: src/Application/Application.csproj
+  last_updated_by: Nadir Badnjevic
+  last_updated_on: 2023-04-01 20:19:11.000000000 Z
+- name: Microsoft.EntityFrameworkCore.InMemory
+  description: In-memory database provider for Entity Framework Core
+  package_url: https://www.nuget.org/Microsoft.EntityFrameworkCore.InMemory
+  version: 7.0.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13150/default_81ac985912284073db895b0d26abf3657532a164.png
+  detection_source_url: https://github.com/caseyspaulding/VerticalSliceArchitecture/blob/main/src/Application/Application.csproj
+  detection_source: src/Application/Application.csproj
+  last_updated_by: Nadir Badnjevic
+  last_updated_on: 2023-04-01 20:19:11.000000000 Z
+- name: Microsoft.EntityFrameworkCore.SqlServer
+  description: Microsoft SQL Server database provider for Entity Framework Core
+  package_url: https://www.nuget.org/Microsoft.EntityFrameworkCore.SqlServer
+  version: 7.0.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12891/default_4e8402857d2ce7356903ee7422d9b4a0f23cc137.png
+  detection_source_url: https://github.com/caseyspaulding/VerticalSliceArchitecture/blob/main/src/Application/Application.csproj
+  detection_source: src/Application/Application.csproj
+  last_updated_by: Nadir Badnjevic
+  last_updated_on: 2023-04-01 20:19:11.000000000 Z
+- name: NUnit3TestAdapter
+  description: A package including the NUnit 3 TestAdapter for Visual Studio 2012
+    onwards
+  package_url: https://www.nuget.org/NUnit3TestAdapter
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13216/default_e23dabba1be2c69fbf5fc50bdc46cbffbe6ca2cb.png
+  detection_source_url: https://github.com/caseyspaulding/VerticalSliceArchitecture/blob/main/tests/Application.IntegrationTests/Application.IntegrationTests.csproj
+  detection_source: tests/Application.IntegrationTests/Application.IntegrationTests.csproj
+  last_updated_by: Nadir Badnjevic
+  last_updated_on: 2022-03-15 08:24:02.000000000 Z
+- name: Swashbuckle.AspNetCore
+  description: Swagger tools for documenting APIs built on ASP.NET Core
+  package_url: https://www.nuget.org/Swashbuckle.AspNetCore
+  version: 6.2.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12981/default_aa8a6e377c22dbeff795489a5ab127b1d597b5ed.png
+  detection_source_url: https://github.com/caseyspaulding/VerticalSliceArchitecture/blob/main/src/Api/Api.csproj
+  detection_source: src/Api/Api.csproj
+  last_updated_by: Nadir Badnjevic
+  last_updated_on: 2023-04-01 20:19:11.000000000 Z
